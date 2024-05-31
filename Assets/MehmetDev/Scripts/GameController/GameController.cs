@@ -38,4 +38,12 @@ public class GameController : MonoBehaviour
         int activeScene = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(activeScene);
     }
+
+    public void BtnNextLvl()
+    {
+
+        //int activeScene = SceneManager.GetActiveScene().buildIndex +1 ;
+        int activeScene = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(activeScene);
+    }
 }
